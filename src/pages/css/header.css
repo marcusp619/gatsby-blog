@@ -1,5 +1,16 @@
+/**** HEADER COMPONENT *****/
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Oxygen');
 /* font-family: 'Oxygen', sans-serif; */
+.header-wrapper {
+  background:  
+  linear-gradient(
+    rgba(255, 255, 255, 0.75), 
+    rgba(255, 255, 255, 1)
+  ), url(../images/1350.jpg) no-repeat center;
+  background-size: cover;
+}
+
 header {
   align-content: center;
   border-bottom: 1px solid #3F4045;
@@ -24,9 +35,23 @@ nav {
 nav a {
   color: #3F4045;
   padding-left: 15px;
+  text-align: center;
   text-decoration: none;
 }
 
 nav a:hover {
   
 }
+
+.header--hero {
+  margin: 5rem 0 10rem 0;
+  text-align: center;
+}
+
+.header--hero h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+/**** ANIMATIONS *****/
