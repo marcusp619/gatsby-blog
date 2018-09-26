@@ -2,7 +2,7 @@ import React from 'react';
 import header from '../css/header.css';
 
 export default () => (
-  <div>
+  <div className="header-wrapper">
     <header>
       <a className="header--logo" href="#">MP</a>
       <nav>
