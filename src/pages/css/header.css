@@ -5,8 +5,8 @@
 .header-wrapper {
   background:  
   linear-gradient(
-    rgba(255, 255, 255, 0.85), 
-    rgba(255, 255, 255, 0.95)
+    rgba(255, 255, 255, 0.75), 
+    rgba(255, 255, 255, 1)
   ), url(../images/1350.jpg) no-repeat center;
   background-size: cover;
 }
