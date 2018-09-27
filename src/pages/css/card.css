@@ -1,0 +1,13 @@
+.card--wrapper {
+  margin-top: 1rem;
+  padding-right: 1rem;
+}
+.card--image {
+  background: url(../images/photo-1537949721120-e8f21f6698e6.jpeg) no-repeat center;
+  background-size: cover;
+  height: 10rem;
+}
+
+.card--blog p {
+  line-height: 1.8rem;
+}

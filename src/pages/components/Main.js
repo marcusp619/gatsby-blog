@@ -1,5 +1,7 @@
 import React from 'react';
-import "../css/main.css"
+import "../css/main.css";
+import Card from  './Card';
+
 export default () => (
   <main>
     <nav className="main--nav">
@@ -9,6 +11,8 @@ export default () => (
       <a href="#">#css</a>
       <a href="#">#js</a> 
     </nav>
-    
+    <Card />
+    <Card />
+    <Card />
   </main>
 );

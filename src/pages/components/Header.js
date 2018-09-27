@@ -5,7 +5,7 @@ export default () => (
   <div className="header-wrapper">
     <header>
       <a className="header--logo" href="#">MP</a>
-      <nav>
+      <nav className="header--nav">
         <a href="#">Home</a>
         <a href="#">Blog</a>
         <a href="#">Work</a>
