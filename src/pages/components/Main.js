@@ -1,6 +1,6 @@
 import React from 'react';
 import "../css/main.css";
-import Card from  './Card';
+import Card from  '../template/Card';
 import { Link } from 'gatsby';
 
 export default () => (
@@ -12,8 +12,6 @@ export default () => (
       <Link to="#">#css</Link>
       <Link to="#">#js</Link> 
     </nav>
-    <Card />
-    <Card />
-    <Card />
+
   </main>
 );

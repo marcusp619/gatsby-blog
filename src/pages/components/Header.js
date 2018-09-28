@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import '../css/header.css';
 
-export default ({ children }) => (
+export default () => (
   <div className="header-wrapper">
     <header>
       <Link to="/" className="header--logo" href="#">MP</Link>
@@ -17,6 +17,5 @@ export default ({ children }) => (
       <h1>Mark's</h1>
       <h1>Dev Blog</h1>
     </section>
-    {children}
   </div>
 )
