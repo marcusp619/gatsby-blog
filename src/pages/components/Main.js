@@ -1,18 +1,17 @@
 import React from 'react';
 import "../css/main.css";
 import Card from  './Card';
+import { Link } from 'gatsby';
 
 export default () => (
   <main>
     <nav className="main--nav">
-      <a href="#">#Dev</a>
-      <a href="#">#Rant</a>
-      <a href="#">#tutorial</a>
-      <a href="#">#css</a>
-      <a href="#">#js</a> 
+      <Link to="#">#Dev</a>
+      <Link to="#">#Rant</a>
+      <Link to="#">#tutorial</a>
+      <Link to="#">#css</a>
+      <Link to="#">#js</> 
     </nav>
-    <Card />
-    <Card />
     <Card />
     <Card />
     <Card />
