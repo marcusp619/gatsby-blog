@@ -1,7 +1,6 @@
 /**** HEADER COMPONENT *****/
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Oxygen');
-/* font-family: 'Oxygen', sans-serif; */
 .header-wrapper {
   background:  
   linear-gradient(
@@ -28,11 +27,11 @@ header {
   text-decoration: none;
 }
 
-nav {
+.header--nav {
   justify-self: flex-end;
 }
 
-nav a {
+.header--nav a {
   color: #3F4045;
   padding-left: 15px;
   text-align: center;

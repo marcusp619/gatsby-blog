@@ -1,5 +1,19 @@
 main {
-  padding: 0 1.5rem;
   display: grid;
+  font-family: 'Oxygen', sans-serif;
   grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 1.5rem;
+}
+
+.main--nav {
+  grid-row: 1;
+  grid-column: 1/ span 3;
+  justify-self: flex-start;
+}
+
+.main--nav a {
+  color: #3F4045;
+  padding-right: 15px;
+  text-align: center;
+  text-decoration: none;
 }
