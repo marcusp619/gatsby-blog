@@ -6,11 +6,11 @@ import { Link } from 'gatsby';
 export default () => (
   <main>
     <nav className="main--nav">
-      <Link to="#">#Dev</a>
-      <Link to="#">#Rant</a>
-      <Link to="#">#tutorial</a>
-      <Link to="#">#css</a>
-      <Link to="#">#js</> 
+      <Link to="#">#Dev</Link>
+      <Link to="#">#Rant</Link>
+      <Link to="#">#tutorial</Link>
+      <Link to="#">#css</Link>
+      <Link to="#">#js</Link> 
     </nav>
     <Card />
     <Card />
